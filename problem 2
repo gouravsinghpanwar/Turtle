@@ -1,0 +1,14 @@
+from turtle import Turtle
+def repeat_shape(turtle_pattern):
+for i in range(15):
+    turtle_pattern.forward(50)
+    turtle_pattern.left(90)
+    turtle_pattern.forward(50)
+    turtle_pattern.left(90)
+    turtle_pattern.forward(50)
+    turtle_pattern.left(90)
+    turtle_pattern.forward(50)
+    turtle_pattern.left(90)
+    turtle_pattern.left(30)
+Demo_1 = Turtle()
+repeat_shape(Demo_1)
